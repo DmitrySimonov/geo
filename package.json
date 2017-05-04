@@ -8,6 +8,7 @@
     "gen-client:production": "cross-env cross-env webpack -p",
     "production": "cross-env NODE_ENV=production cross-env BUILD_APP_TARGET=SERVER babel-node server",
     "development": "cross-env NODE_ENV=development cross-env BUILD_APP_TARGET=SERVER babel-node server",
+    "babel-version": "babel --version",
     "start": "babel-node server"
   },
   "engines": {
