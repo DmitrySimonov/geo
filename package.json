@@ -4,7 +4,7 @@
   "description": "Konux Dashboard Client Application",
   "scripts": {
     "parse": "node parseKML.js",
-    "gen-client": "npm run gen-client:development",
+    "gen-client": "npm run gen-client:production",
     "gen-client:development": "cross-env NODE_ENV=development cross-env BUILD_APP_TARGET=CLIENT webpack -p",
     "gen-client:production": "cross-env NODE_ENV=production cross-env BUILD_APP_TARGET=CLIENT webpack -p",
     "production": "cross-env NODE_ENV=production cross-env BUILD_APP_TARGET=SERVER babel-node server",
