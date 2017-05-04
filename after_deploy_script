@@ -1,0 +1,7 @@
+# Reload the nginx service
+sudo systemctl restart andromeda-app
+# Go into the project folder
+cd $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/$RELEASES_FOLDER
+# Delete all folder but the leave the last 3 ones added
+ls -1tdr release_* | head -n -3 | sudo xargs -d '\n' rm -r
+echo Development deployment ended

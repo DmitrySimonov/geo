@@ -1,0 +1,10 @@
+export const RegionListId = 1 << 0;
+export const RoutesListId = 1 << 1;
+export const TimeFrameId = 1 << 2;
+export const WSHLFrameId = 1 << 3;
+export const SwitchListId = 1 << 4;
+export const AnalysisTypeId = 1 << 5;
+export const AxelXId = 1 << 6;
+export const AxelYId = 1 << 7;
+export const AddNewFilterId = 1 << 8;
+export const ChartConfigutratorId = 1 << 9;

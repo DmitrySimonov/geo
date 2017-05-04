@@ -1,0 +1,12 @@
+export const OVERVIEW           = '/overview';
+export const TILE_OVERVIEW      = '/tile-overview';
+export const GROUP_REPORT       = '/group-report';
+export const ASSET_REPORT       = '/asset-report';
+export const ASSET_ANALYTICS    = '/asset-analytics';
+export const GROUP_ANALYTICS    = '/group-analytics';
+export const SENSOR_LOG         = '/sensor-log';
+export const EVENT_LOG          = '/event-log';
+export const ALERTS             = '/alerts';
+export const ALERTS_SETTING     = '/alerts-setting';
+export const PROFILE            = '/profile';
+export const INVITE_MEMBERS     = '/invite-members';

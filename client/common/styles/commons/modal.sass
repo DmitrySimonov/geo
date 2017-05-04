@@ -1,0 +1,297 @@
+.alerts-modal
+    width: 100%
+    height: calc(100vh - #{$navbar-height} + #{$scroll-margin-compensation})
+    //background-color: $palett-color-81
+    text-align: center
+    display: block
+    header
+        text-align: left
+        color: $palett-color-84
+        background-color: $color-white
+        padding: 13px 20px
+        font-size: 17px
+        font-weight: $font-weight-2
+        position: relative
+        border-bottom: 1px solid $palett-color-65
+    .wrapper
+        text-align: left
+    .left-side
+        width: 245px
+        display: inline-block
+        height: calc(100vh - 128px + #{$scroll-margin-compensation}) // height of viewport without navbar and subbar
+        background-color: $palett-color-82
+        border-right: 1px solid $palett-color-83
+        p
+            color: $palett-color-84
+            font-size: $font-size-4
+            font-weight: $font-weight-2
+            display: inline-block
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            width: 100%
+            vertical-align: top
+        .table-view
+            max-height: 495px !important
+            min-height: 495px !important
+        >div
+            max-height: 495px !important
+    .right-side
+        width: calc(100% - 245px)
+        display: inline-block
+        background: $color-white
+        vertical-align: top
+        height: calc(100vh - 128px + #{$scroll-margin-compensation}) // height of viewport without navbar and subbar
+        position: relative
+        .table-view
+            max-height: 450px !important
+            min-height: 450px !important
+        >div
+            max-height: 450px !important
+    .btn-9
+        width: 190px
+        display: block !important
+        margin: 25px auto 0
+.fl-r
+    float: right
+.alert-item
+    padding: 17px 20px 13px
+    border-bottom: 1px solid $palett-color-65
+    background-color: $palett-color-82
+    &.active
+        background: $color-white
+    &:last-child
+        border-bottom: none
+.hide-modal
+    color: $color-white
+    opacity: 0.67
+    font-size: 26px
+    font-weight: 500
+    position: absolute
+    top: 10px
+    right: 30px
+    cursor: pointer
+.buttons
+    position: absolute
+    bottom: 20px
+    left: 0
+    right: 0
+    width: calc(100% - 90px)
+    margin-left: 40px
+    .btn-12
+        width: 116px
+    .btn-13
+        width: 116px
+    .btn-14
+        width: 116px
+.info-line
+    box-shadow: inset 0 0 2px rgba($color-white, 0.13)
+    border-radius: 2px
+    background-color: $palett-color-85
+    padding: 10px 15px
+    width: calc(100% - 50px)
+    .or
+        padding: 7px 3px
+        border-radius: 3px
+        background-color: $palett-color-86
+        color: $palett-color-87
+        font-size: 10px
+        font-weight: 500
+        letter-spacing: 1px
+        text-transform: uppercase
+        margin: 0 5px
+        position: relative
+        top: -2px
+    .and
+        padding: 7px 3px
+        border-radius: 3px
+        background-color: $palett-color-88
+        color: $palett-color-89
+        font-size: 10px
+        font-weight: 500
+        letter-spacing: 1px
+        text-transform: uppercase
+        margin: 0 5px
+        position: relative
+        top: -2px
+.wrapper-line
+    margin: 20px 0 20px 40px
+    display: block
+    position: relative
+    .btn-11
+        position: absolute
+        top: 50%
+        left: 0
+        transform: translateY(-50%)
+.drop-down-list
+    margin-bottom: 15px
+    position: relative
+.wrapper-alert-creat
+    border-radius: 3px
+    float: right
+    margin-right: 0
+    border: 1px solid $palett-color-67
+    padding: 18px
+    width: calc(100% - 100px)
+    margin-right: 50px
+    .btn-11
+        position: absolute
+        right: 0
+        top: 10px
+    .fl-r
+        float: right
+    .caret
+        color: $palett-color-90
+        position: absolute
+        top: 15px
+        right: 10px
+
+    .btn-10
+        margin-top: 12px
+    input
+        width: 111px
+        height: 32px
+        border-radius: 4px
+        border: 1px solid $palett-color-65
+        color: $palett-color-84
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        padding-left: 10px
+        text-transform: capitalize
+        width: 31%
+    .dropdown
+        margin-right: 15px
+        width: 32%
+        .dropdown-menu
+            border-color: $palett-color-65
+            border-radius: 0
+            padding: 0
+            border-bottom: none
+            li
+                border-bottom: 1px solid $palett-color-65
+                outline: none
+                &.active
+                    background-color: $palett-color-45
+                a
+                        display: block
+                        padding: 7px 10px
+                        clear: both
+                        font-weight: 400
+                        line-height: 1.42857
+                        color: $palett-color-40
+                        white-space: nowrap
+                        outline: none
+                        &:focus
+                            background-color: $transparent
+                        &:hover
+                            background-color: $palett-color-45
+        &.open 
+            .dropdown-toggle
+                box-shadow: 0 0 0 $color-white
+                &:hover
+                    color: $palett-color-84
+                    background: $transparent
+                    border-color: $palett-color-65
+        button.btn-default
+            text-align: left
+            background: $transparent
+            border-radius: 4px
+            border: 1px solid $palett-color-65
+            color: $palett-color-84
+            font-size: $font-size-4
+            font-weight: $font-weight-2
+            text-transform: capitalize
+            padding: 7px 10px
+// custom checkbox
+.threshold-toggle
+    position: relative
+    border-radius: 50%
+    display: inline-block
+    float: right
+    margin-right: 50px
+    .checkbox 
+        &:not(checked)+label
+            &:after 
+                content: ''
+                color: $color-white
+                position: absolute
+                right: 10px
+                z-index: 0
+            &:before 
+                width: 10px
+                height: 10px
+                border-radius: 100px
+                border: 1px solid $palett-color-75
+                background-color: $color-white
+                position: absolute
+                top: 50%
+                left: 5px
+                transform: translateY(-50%)
+                transition: all .3s ease-in
+        &:checked+label
+            background-color: $palett-color-91
+            &:before
+                background-color: $color-white
+                left: 25px
+            &:after
+                border: none
+    label           
+        top: 3px
+        display: block
+        padding: 0
+        width: 40px
+        height: 15px
+        cursor: pointer
+        position: relative
+        z-index: 1
+        background: $palett-color-92
+        border-radius: 60px
+        transition: all 0.4s ease
+    input[type=checkbox] 
+        visibility: hidden
+
+.delete-treshold
+    color: $palett-color-93
+    font-family: Proxima Nova
+    font-size: 11px
+    font-weight: 700
+    letter-spacing: 1px
+    position: absolute
+    right: -11px
+    top: 10px
+    cursor: pointer
+.btn-default.btn-15.delete-treshold-item
+    position: absolute
+    right: -50px
+    top: 50%
+    transform: translateY(-50%)
+    label
+        position: relative
+        top: -4px
+.sub-modal
+    padding: 15px 0
+    height: 50px
+    border-bottom: 1px solid $palett-color-65
+    background-color: $color-white
+    .sub-modal-name
+        color: $palett-color-84
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        text-transform: uppercase
+        display: inline-block
+        margin-left: 41px
+        border: 2px solid $transparent
+        padding: 3px 7px
+        &.active
+            text-transform: capitalize
+            border: 2px solid $palett-color-71
+            padding: 3px 7px
+            outline: none
+    .name-rename
+        margin-left: 10px
+        color: $palett-color-94
+        font-size: 13px
+        font-weight: 300
+        letter-spacing: 1px
+        text-decoration: none
+        display: inline-block

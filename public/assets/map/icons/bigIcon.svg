@@ -1,0 +1,40 @@
+<svg id="SvgjsSvg1000" 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:svgjs="http://svgjs.com/svgjs" width="68" height="68" viewBox="0 0 68 68">
+    <title>pin_lg</title>
+    <desc>Created with Avocode.</desc>
+    <defs id="SvgjsDefs1001">
+        <filter id="SvgjsFilter1010" width="200%" height="200%" x="-50%" y="-50%">
+            <feMorphology id="SvgjsFeMorphology1011" operator="dilate" radius="0" result="SvgjsFeMorphology1011Out" in="SourceGraphic"></feMorphology>
+            <feOffset id="SvgjsFeOffset1012" dx="0" dy="2" result="SvgjsFeOffset1012Out" in="SvgjsFeMorphology1011Out"></feOffset>
+            <feGaussianBlur id="SvgjsFeGaussianBlur1013" stdDeviation="2 " result="SvgjsFeGaussianBlur1013Out" in="SvgjsFeOffset1012Out"></feGaussianBlur>
+            <feComposite id="SvgjsFeComposite1014" in="SvgjsFeGaussianBlur1013Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1014Out"></feComposite>
+        </filter>
+        <linearGradient id="SvgjsLinearGradient1017" gradientUnits="userSpaceOnUse" x1="67" y1="33" x2="67" y2="77">
+            <stop id="SvgjsStop1018" stop-opacity="0.15" stop-color="#ffffff" offset="0"></stop>
+            <stop id="SvgjsStop1019" stop-opacity="0" stop-color="#ffffff" offset="1"></stop>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient1021" gradientUnits="userSpaceOnUse" x1="67" y1="38" x2="67" y2="72">
+            <stop id="SvgjsStop1022" stop-opacity="0.12" stop-color="#6e6e6e" offset="0"></stop>
+            <stop id="SvgjsStop1023" stop-opacity="0.2" stop-color="#9c9c9c" offset="1"></stop>
+        </linearGradient>
+        <filter id="SvgjsFilter1027" width="200%" height="200%" x="-50%" y="-50%">
+            <feGaussianBlur id="SvgjsFeGaussianBlur1028" stdDeviation="0.5 " result="SvgjsFeGaussianBlur1028Out" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <mask id="SvgjsMask1029">
+            <path id="SvgjsPath1025" d="M74 51.74C74 51.730000000000004 74 51.72 74 51.71L67.84 54.980000000000004L74 58.260000000000005ZM73.13 50.36L73.12816 50.3612L73.16 50.379999999999995ZM67.74 47.18C67.33 46.94 66.67 46.94 66.25999999999999 47.18L60.739999999999995 50.44C60.55 50.55 60.379999999999995 50.73 60.24999999999999 50.94L66.1 54.059999999999995L66.83999999999999 54.449999999999996L73.12816 50.3612ZM65.69 54.77L60.14 51.160000000000004C60.05 51.35 60 51.56 60 51.74V58.260000000000005C60 58.440000000000005 60.05 58.63 60.13 58.82000000000001L65.69 55.20000000000001L66.02 54.98000000000001ZM66.84 55.52L66.10000000000001 55.910000000000004L60.24000000000001 59.03C60.37000000000001 59.26 60.55000000000001 59.45 60.74000000000001 59.56L66.26 62.82C66.67 63.06 67.33 63.06 67.74000000000001 62.82L73.16000000000001 59.62Z " fill="#ffffff"></path>
+        </mask>
+    </defs>
+    <path id="selected" d="M33 55C33 36.222319999999996 48.222319999999996 21 67 21C85.77768 21 101 36.222319999999996 101 55C101 73.77768 85.77768 89 67 89C48.222319999999996 89 33 73.77768 33 55Z " 
+    visibility="{{ selected }}"
+    opacity="0.3" fill="{{ color }}" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="hover" d="M39 55C39 39.53603 51.53603 27 67 27C82.46397 27 95 39.53603 95 55C95 70.46397 82.46397 83 67 83C51.53603 83 39 70.46397 39 55Z "
+    visibility="{{ hover }}" fill="{{ color }}" fill-opacity="0.3" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="SvgjsPath1009" d="M45 55C45 42.84974 54.84974 33 67 33C79.15026 33 89 42.84974 89 55C89 67.15026 79.15026 77 67 77C54.84974 77 45 67.15026 45 55Z " fill="#2c2c2c" fill-opacity="0.1" filter="url(#SvgjsFilter1010)" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="main-background" d="M45 55C45 42.84974 54.84974 33 67 33C79.15026 33 89 42.84974 89 55C89 67.15026 79.15026 77 67 77C54.84974 77 45 67.15026 45 55Z " fill="{{ color }}" fill-opacity="1" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="SvgjsPath1016" d="M45 55C45 42.84974 54.84974 33 67 33C79.15026 33 89 42.84974 89 55C89 67.15026 79.15026 77 67 77C54.84974 77 45 67.15026 45 55Z " fill="url(#SvgjsLinearGradient1017)" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="SvgjsPath1020" d="M50 55C50 45.61116 57.61116 38 67 38C76.38884 38 84 45.61116 84 55C84 64.38884 76.38884 72 67 72C57.61116 72 50 64.38884 50 55Z " fill="url(#SvgjsLinearGradient1021)" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="SvgjsPath1024" d="M74 51.74C74 51.730000000000004 74 51.72 74 51.71L67.84 54.980000000000004L74 58.260000000000005ZM73.13 50.36L73.12816 50.3612L73.16 50.379999999999995ZM67.74 47.18C67.33 46.94 66.67 46.94 66.25999999999999 47.18L60.739999999999995 50.44C60.55 50.55 60.379999999999995 50.73 60.24999999999999 50.94L66.1 54.059999999999995L66.83999999999999 54.449999999999996L73.12816 50.3612ZM65.69 54.77L60.14 51.160000000000004C60.05 51.35 60 51.56 60 51.74V58.260000000000005C60 58.440000000000005 60.05 58.63 60.13 58.82000000000001L65.69 55.20000000000001L66.02 54.98000000000001ZM66.84 55.52L66.10000000000001 55.910000000000004L60.24000000000001 59.03C60.37000000000001 59.26 60.55000000000001 59.45 60.74000000000001 59.56L66.26 62.82C66.67 63.06 67.33 63.06 67.74000000000001 62.82L73.16000000000001 59.62Z " fill="#ffffff" fill-opacity="1" transform="matrix(1,0,0,1,-33,-21)"></path>
+    <path id="SvgjsPath1026" d="M59 66V45H75V66ZM74 52.74C74 52.730000000000004 74 52.72 74 52.71L67.84 55.980000000000004L74 59.260000000000005ZM73.13 51.36L73.12816 51.3612L73.16 51.379999999999995ZM67.74 48.18C67.33 47.94 66.67 47.94 66.25999999999999 48.18L60.739999999999995 51.44C60.55 51.55 60.379999999999995 51.73 60.24999999999999 51.94L66.1 55.059999999999995L66.83999999999999 55.449999999999996L73.12816 51.3612ZM65.69 55.77L60.14 52.160000000000004C60.05 52.35 60 52.56 60 52.74V59.260000000000005C60 59.440000000000005 60.05 59.63 60.13 59.82000000000001L65.69 56.20000000000001L66.02 55.98000000000001ZM66.84 56.52L66.10000000000001 56.910000000000004L60.24000000000001 60.03C60.37000000000001 60.26 60.55000000000001 60.45 60.74000000000001 60.56L66.26 63.82C66.67 64.06 67.33 64.06 67.74000000000001 63.82L73.16000000000001 60.62Z " fill="#021311" fill-opacity="0.2" stroke-opacity="0.2" stroke-width="0" stroke="#021311" filter="url(#SvgjsFilter1027)" mask="url(&quot;#SvgjsMask1029&quot;)" transform="matrix(1,0,0,1,-33,-21)"></path>
+</svg>

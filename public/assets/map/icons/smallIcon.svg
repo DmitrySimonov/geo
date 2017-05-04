@@ -1,0 +1,29 @@
+<svg id="SvgjsSvg1030" 
+    xmlns="http://www.w3.org/2000/svg" version="1.1" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:svgjs="http://svgjs.com/svgjs" width="19" height="21" viewBox="0 0 19 21">
+    <title>pin_sm</title>
+    <desc>Created with Avocode.</desc>
+    <defs id="SvgjsDefs1031">
+        <filter id="SvgjsFilter1034" width="200%" height="200%" x="-50%" y="-50%">
+            <feMorphology id="SvgjsFeMorphology1035" operator="dilate" radius="0" result="SvgjsFeMorphology1035Out" in="SourceGraphic"></feMorphology>
+            <feOffset id="SvgjsFeOffset1036" dx="0" dy="2" result="SvgjsFeOffset1036Out" in="SvgjsFeMorphology1035Out"></feOffset>
+            <feGaussianBlur id="SvgjsFeGaussianBlur1037" stdDeviation="2 " result="SvgjsFeGaussianBlur1037Out" in="SvgjsFeOffset1036Out"></feGaussianBlur>
+            <feComposite id="SvgjsFeComposite1038" in="SvgjsFeGaussianBlur1037Out" in2="SourceAlpha" operator="out" result="SvgjsFeComposite1038Out"></feComposite>
+        </filter>
+        <linearGradient id="SvgjsLinearGradient1041" gradientUnits="userSpaceOnUse" x1="67.5" y1="114" x2="67.5" y2="125">
+            <stop id="SvgjsStop1042" stop-opacity="0.15" stop-color="#ffffff" offset="0"></stop>
+            <stop id="SvgjsStop1043" stop-opacity="0" stop-color="#ffffff" offset="1"></stop>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient1045" gradientUnits="userSpaceOnUse" x1="67.5" y1="116" x2="67.5" y2="123">
+            <stop id="SvgjsStop1046" stop-opacity="0.12" stop-color="#6e6e6e" offset="0"></stop>
+            <stop id="SvgjsStop1047" stop-opacity="0.2" stop-color="#9c9c9c" offset="1"></stop>
+        </linearGradient>
+    </defs>
+    <path id="hover" visibility="{{ hover }}" d="M58 119.5C58 114.25328999999999 62.25329 110 67.5 110C72.74671000000001 110 77 114.25328999999999 77 119.5C77 124.74671000000001 72.74671000000001 129 67.5 129C62.25329 129 58 124.74671000000001 58 119.5Z " fill="{{ color }}" fill-opacity="0.3" transform="matrix(1,0,0,1,-58,-110)"></path>
+    <path id="SvgjsPath1033" d="M62 119.5C62 116.46243 64.46243 114 67.5 114C70.53757 114 73 116.46243 73 119.5C73 122.53757 70.53757 125 67.5 125C64.46243 125 62 122.53757 62 119.5Z " fill="#2c2c2c" fill-opacity="0.1" filter="url(#SvgjsFilter1034)" transform="matrix(1,0,0,1,-58,-110)"></path>
+    <path id="SvgjsPath1039" d="M62 119.5C62 116.46243 64.46243 114 67.5 114C70.53757 114 73 116.46243 73 119.5C73 122.53757 70.53757 125 67.5 125C64.46243 125 62 122.53757 62 119.5Z " fill="{{ color }}" fill-opacity="1" transform="matrix(1,0,0,1,-58,-110)"></path>
+    <path id="SvgjsPath1040" d="M62 119.5C62 116.46243 64.46243 114 67.5 114C70.53757 114 73 116.46243 73 119.5C73 122.53757 70.53757 125 67.5 125C64.46243 125 62 122.53757 62 119.5Z " fill="url(#SvgjsLinearGradient1041)" transform="matrix(1,0,0,1,-58,-110)"></path>
+    <path id="SvgjsPath1044" d="M64 119.5C64 117.567 65.567 116 67.5 116C69.433 116 71 117.567 71 119.5C71 121.433 69.433 123 67.5 123C65.567 123 64 121.433 64 119.5Z " fill="url(#SvgjsLinearGradient1045)" transform="matrix(1,0,0,1,-58,-110)"></path>
+    <path id="SvgjsPath1048" d="M66 119.5C66 118.67157 66.67157 118 67.5 118C68.32843 118 69 118.67157 69 119.5C69 120.32843 68.32843 121 67.5 121C66.67157 121 66 120.32843 66 119.5Z " fill="#000000" fill-opacity="0.1" transform="matrix(1,0,0,1,-58,-110)"></path>
+</svg>

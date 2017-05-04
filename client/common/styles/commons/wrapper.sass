@@ -1,0 +1,47 @@
+@import "./../variables.sass"
+
+.wrapper-main
+    background: url($bg-texture-path), $palett-gradient-3
+    background-repeat: no-repeat
+    background-size: cover
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    z-index: 200
+    display: table
+    text-align: center
+    height: 100%
+    width: 100%
+    .wrapper-block
+        display: table-cell
+        vertical-align: middle
+    >.form-wrap
+        width: calc(100% - #{$left-sidebar-width})
+        position: relative
+        >.form-wrap
+            width: 100%
+
+.form-wrap
+    width: $form-wrap-width
+    position: relative
+    display: inline-block
+    text-align: left
+    .form-group
+        &.center
+            display: block
+            text-align: center
+        span
+            margin: 0 5px
+    &.frm-1
+        background-color: $color-white
+        padding: 25px 35px 35px
+        border-radius: 3px
+        margin-bottom: 15px
+
+.page-scroll-wrap
+    >div
+        max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation})!important
+        .page-inner-scroll-wrap
+            max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation})!important

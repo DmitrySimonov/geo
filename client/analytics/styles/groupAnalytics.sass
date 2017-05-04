@@ -1,0 +1,26 @@
+.group-analytics-view
+    .chart-wrap
+        >div:last-child
+            min-height: 500px
+.asset-analytics-wrapper
+    min-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+.form-wrap.page-wrap
+    .page-inner-wrap
+        >div
+            min-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+            max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+            .group-analytics-view
+                min-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+                max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+        .chart-wrap
+            ul
+                position: absolute
+                width: auto
+                right: 40px
+                top: 20px
+                li
+                    border: none
+                    display: inline-block
+                    padding: 0
+                    &:not(:last-child)
+                        margin-right: 25px

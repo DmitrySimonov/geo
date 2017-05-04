@@ -1,0 +1,48 @@
+stages:
+  - deploy
+
+variables:
+  PROJECT_DESTINATION_PATH: "/var/www"
+  RELEASES_FOLDER: "releases"
+  CURRENT_FOLDER: "current"
+  LOGS_FOLDER: "logs"
+
+Deploy:ui-vm1:
+  stage: deploy
+  tags:
+      - ui-vm1
+
+  before_script:
+    - chmod +x $CI_PROJECT_DIR/before_deploy_script
+    - chmod +x $CI_PROJECT_DIR/deploy_script
+    - chmod +x $CI_PROJECT_DIR/after_deploy_script
+    - source $CI_PROJECT_DIR/before_deploy_script
+
+  script:
+    - source $CI_PROJECT_DIR/deploy_script
+
+  after_script:
+    - source $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/current/after_deploy_script
+
+  when: manual
+  environment: development
+
+Deploy:ui-vm2:
+  stage: deploy
+  tags:
+      - ui-vm2
+
+  before_script:
+    - chmod +x $CI_PROJECT_DIR/before_deploy_script
+    - chmod +x $CI_PROJECT_DIR/deploy_script
+    - chmod +x $CI_PROJECT_DIR/after_deploy_script
+    - source $CI_PROJECT_DIR/before_deploy_script
+
+  script:
+    - source $CI_PROJECT_DIR/deploy_script
+
+  after_script:
+    - source $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/current/after_deploy_script
+
+  when: manual
+  environment: development

@@ -1,0 +1,14 @@
+yarn install
+npm i
+yarn run gen-client
+# Be sure we have the folder structure that we need
+sudo mkdir -p $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME
+sudo mkdir -p $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/$RELEASES_FOLDER
+# Copy the project from the gitlab location to tmp
+sudo cp -R $CI_PROJECT_DIR /tmp/$CI_PROJECT_NAME
+# Put it from tmp in the release folder
+sudo mv /tmp/$CI_PROJECT_NAME $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/$RELEASES_FOLDER/release_$(date +%Y_%m_%d_%H_%M_%S)
+# Create the symbolic link for project and logs
+sudo ln -sfn $(ls -td $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/$RELEASES_FOLDER/release_*| head -n 1) $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME/$CURRENT_FOLDER
+# Assign the user and group
+sudo chown -R www-data:www-data $PROJECT_DESTINATION_PATH/$CI_PROJECT_NAME

@@ -1,0 +1,188 @@
+.asset-analytics
+    margin-left: #{$switch-selector-width}
+    .wrapper-block
+        display: block
+.form-wrap.page-wrap
+    display: inline-block
+    width: calc(100% - 90px)
+    .page-inner-wrap
+        >div
+            max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+        .asset-analytics-view
+            max-height: calc(100vh - #{$navbar-height} - #{$subbar-height} + #{$scroll-margin-compensation}) !important
+.asset-analytics-wrapper
+    width: 100%
+    background-color: $palett-color-45
+    padding: 25px
+    position: relative
+    .chart
+            height: 500px
+    .chart-wrap
+        background-color: $color-white
+        padding: 23px 20px
+        border-radius: 4px
+        position: relative
+        .form-wrap:not(.chart-inner-wrapp)
+            position: absolute
+            right: 39px
+            top: 20px
+            width: auto
+            ul
+                display: inline-block
+                li
+                    border: none
+                    display: inline-block
+                    padding: 0
+                    &:not(:last-child)
+                        margin-right: 25px
+        >.chart-inner-wrapp
+            height: 500px
+        .threshold-set
+            width: 140px
+            height: auto
+            display: inline-block
+            background-color: transparent
+            padding: 0
+            margin-right: 12px
+            label
+                cursor: pointer
+            img
+                display: inline-block
+                margin-left: 15px
+            &:hover
+                background-color: transparent
+        span
+            height: 6px
+            width: 6px 
+            border-radius: 50%
+            display: inline-block
+            margin-right: 4px
+button
+    >label
+        cursor: pointer
+.header-name
+    background-color: #1c3259
+.modal-layer
+    position: absolute
+    background-color: rgba(0,0,0,0.1)
+    height: 100vh 
+    width: 100%  !important
+    z-index: 100
+    top: 0
+    left: 0
+    .hide-modal
+        display: none
+    .set-thresholds-modal
+        background-color: $color-white
+        position: absolute
+        left: 50%
+        top: 50%
+        transform: translate(-50%, -50%)
+        .thresholds-modal-inner-wrap
+            >div
+                max-height: calc(100vh - 200px) !important
+                .thresholds-modal-scroll-wrap
+                    max-height: calc(100vh - 200px) !important
+                    >.form-wrap
+                        padding: 25px 0 35px 
+        .title
+            padding: 20px 0 20px 40px
+            background-color: $palett-color-25
+            .lbl-16
+                color: $color-white
+        .list-group-item
+            border: none
+            padding: 0
+            width: 318px
+            margin: auto
+            padding-left: 29px
+            border-radius: 5px
+            .form-control
+                height: 40px
+            .lbl-6
+                letter-spacing: $letter-spacing-6
+                margin-bottom: 8px
+                display: block
+            &:first-child
+                label
+                    color: $palett-color-47
+            &:nth-child(2)
+                label
+                    color: $palett-color-48
+            &:nth-child(3)
+                label
+                    color: $palett-color-49
+            >form
+                width: 195px
+                display: inline-block
+            .checkbox-wrap
+                width: 48px
+                display: inline-block
+                label
+                    padding: 0
+            .threshold-toggle 
+                float: none
+                margin-right: 15px
+                label
+                    margin-left: 10px
+                    height: 19px
+                    &:before
+                        width: 13px
+                        height: 13px
+        .description
+            margin: 15px auto
+            text-align: center
+            width: 230px
+            display: block
+        button:not(.btn-4, .delete-button)
+            border: 1px solid $palett-color-5
+            background-color: $transparent
+            height: 25px
+            >label
+                font-size: $font-size-4
+                color: $palett-color-16
+                font-weight: $font-weight-4
+        .save-button 
+            display: inline-block
+            height: 25px
+            width: 124px
+            padding: 0
+            >label
+                color: $color-white
+                font-size: $font-size-4
+        .cancel-button
+            @extend .save-button 
+            margin-right: 13px
+            margin-left: 36px
+            >label
+                color: $palett-color-16
+        .delete-button
+            width: auto
+            background-color: $transparent
+            padding: 0
+        .add-threshold-button
+            margin-right: 25px
+            padding: 0
+            width: 259px
+            margin: auto
+            display: block
+
+#prediction-chart-info
+    border: none
+    background-color: $color-white
+    box-shadow: 0 1px 3px rgba(20, 32, 60, 0.09)
+    padding: 10px 15px
+    min-width: 167px
+    position: absolute
+    top: 20px
+    right: 20px
+    .list-group-item
+        border: none 
+        display: block   
+        margin: 0    
+
+
+      
+    
+      
+

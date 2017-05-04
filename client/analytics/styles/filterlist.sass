@@ -1,0 +1,56 @@
+.filter-list-scroller-wrapper 
+    position: absolute
+    top: $navbar-height
+    left: $left-sidebar-width
+    z-index: 10
+    -webkit-transition: width .2s
+    transition: width .2s
+    &:hover
+        width: 220px
+    .datepicker
+        top: 0px
+        left: 100%
+    >div
+        max-height: calc(100vh - #{$navbar-height} + #{$scroll-margin-compensation}) !important
+        margin: 5px
+    .filter-list-scroller
+        max-height: calc(100vh - #{$navbar-height} + #{$scroll-margin-compensation}) !important
+.filter-list
+    width: 154px
+    background-color: $color-white
+    border-radius: 4px
+    box-shadow: 0 0 3px rgba($palett-color-2, 0.2)
+    z-index: 100
+    -webkit-transition: width .2s
+    transition: width .2s
+    &:hover
+        width: 220px
+    .filter-button-list
+        list-style: none
+        padding: 0
+        margin: 0
+        .filter-button-item
+            box-sizing: border-box
+            transition: all .2s ease-in-out
+            &:nth-child(odd)
+                background-color: $palett-color-34
+                border: 1px solid #e6e9ee
+            &:hover
+                background-color: $palett-color-45
+            button
+                padding: 25px 20px
+                text-align: left
+                background: $transparent
+                text-align: center
+                label
+                    color: $palett-color-40
+                    font-size: $font-size-4
+                    font-weight: $font-weight-2
+                    letter-spacing: $letter-spacing-6
+.sidebar-wrapper.pull-left
+    >div:nth-child(2)
+        max-height: calc(100vh - #{$filter-header} - #{$navbar-height}) !important
+        height: calc(100vh - #{$filter-header} - #{$navbar-height}) !important
+        .filter-list-view
+            max-height: calc(100vh - #{$filter-header} - #{$navbar-height}) !important
+            height: calc(100vh - #{$filter-header} - #{$navbar-height}) !important

@@ -1,0 +1,42 @@
+<svg 
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <style>      .cls-1 {        fill: #00ffe1;      }    </style>
+  </defs>
+  <title>Konux preloader hexa</title>
+  <g fill="none" transform="translate(150,150)">
+    <g fill="none" transform="translate(-150,-150)">
+      <g id="path_1">
+        <path class="cls-1" d="M143.15,150.79,27.44,217.6a1.68,1.68,0,0,1-2.52-1.45V82.53a1.68,1.68,0,0,1,2.52-1.45l115.71,66.81A1.68,1.68,0,0,1,143.15,150.79Z"/>
+        <polygon class="cls-1" points="150.65 149.33 150.63 149.34 150.63 149.31 150.65 149.33"/>
+        <animate id="anim1" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="0;anim6.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim1.end"/>
+      </g>
+      <g id="path_2">
+        <path class="cls-1" d="M146.12,3.81V137.4a1.68,1.68,0,0,1-2.52,1.45L27.89,72.07a1.68,1.68,0,0,1,0-2.91L143.6,2.35A1.68,1.68,0,0,1,146.12,3.81Z"/>
+        <animate id="anim2" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="anim1.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim2.end"/>
+      </g>
+      <g id="path_3">
+        <path class="cls-1" d="M273.36,72.07l-115.69,66.8a1.68,1.68,0,0,1-2.52-1.45l0-133.6a1.68,1.68,0,0,1,2.52-1.45L273.36,69.16A1.68,1.68,0,0,1,273.36,72.07Z"/>
+        <animate id="anim3" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="anim2.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim3.end"/>
+      </g>
+      <g id="path_4">
+        <path class="cls-1" d="M276.33,82.53V216.1a1.68,1.68,0,0,1-2.52,1.45L158.12,150.78a1.68,1.68,0,0,1,0-2.91l115.69-66.8A1.68,1.68,0,0,1,276.33,82.53Z"/>
+        <animate id="anim4" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="anim3.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim4.end"/>
+      </g>
+      <g id="path_5">
+        <path class="cls-1" d="M275.88,228v0L157.65,296.32a1.68,1.68,0,0,1-2.52-1.45V161.25a1.68,1.68,0,0,1,2.52-1.45Z"/>
+        <animate id="anim5" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="anim4.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim5.end"/>
+      </g>
+      <g id="path_6" opacity="1">
+        <path class="cls-1" d="M146.12,161.25V294.86a1.68,1.68,0,0,1-2.52,1.45L27.89,229.51a1.68,1.68,0,0,1,0-2.91L143.6,159.8A1.68,1.68,0,0,1,146.12,161.25Z"/>
+        <animate id="anim6" attributeName="opacity" from="1" to="0.5" dur="0.15s" begin="anim5.end"/>
+        <animate attributeName="opacity" from="0.5" to="1" dur="0.55s" begin="anim6.end"/>
+      </g>
+    </g>
+  </g>
+</svg>

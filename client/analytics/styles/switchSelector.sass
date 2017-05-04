@@ -1,0 +1,111 @@
+.page-content-wrapper
+    position: relative
+.switch-selector
+    position: absolute
+    display: block
+    top: 0
+    left: 0
+    z-index: 3
+    -webkit-transition: width .2s
+    transition: width .2s
+    &:hover
+        width: calc(#{$switch-selector-width} + 80px)
+    width: 90px
+    background-color: $palett-color-61
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.3)
+    color: $color-white
+    float: left
+    // position: absolute
+    // top: 0
+    // bottom: 0
+    // left: 100%
+    // z-index: 100
+    >div
+        max-height: calc(100vh - #{$navbar-height} - #{$switch-selector-title-height} + #{$scroll-margin-compensation}) !important
+        .view
+            max-height: calc(100vh - #{$navbar-height} - #{$switch-selector-title-height} + #{$scroll-margin-compensation}) !important
+    .title 
+        .lbl-18
+            opacity: .6
+            line-height: 20px
+            padding: 5px 8px
+    .lbl-18
+        line-height: 1
+        padding: 6px 8px
+        box-sizing: border-box
+    button
+        position: relative
+        line-height: 1
+        padding: 0
+        &.btn-default.active.focus, 
+        &.btn-default.active:focus, 
+        &.btn-default.active:hover, 
+        &.btn-default:active.focus, 
+        &.btn-default:active:focus, 
+        &.btn-default:active:hover, 
+        &.open>.btn-default.dropdown-toggle.focus, 
+        &.open>.btn-default.dropdown-toggle:focus, 
+        &.open>.btn-default.dropdown-toggle:hover
+            background-color: $palett-color-61
+            color: $color-white
+        &:not(:last-child)
+            margin-bottom: 20px
+        &:hover
+            .health-status
+                opacity: 1
+                width: 10px 
+        .health-status
+            opacity: .4
+            content: " "
+            height: 100%
+            width: 4px
+            background-color: $palett-color-6
+            position: absolute
+            top: 0
+            left: 0
+            border-radius: 0
+            transition: all .2s linear
+            &.active
+                opacity: 1
+                width: 10px
+            &.good
+                background-color: #0fd1ce
+            &.warning
+                background-color: #ffb870
+            &.error
+                background-color: #fb9582
+            &.inactive
+                background-color: $palett-color-16
+    label
+        font-size: 14px
+        font-weight: $font-weight-2
+        line-height: 0
+    .switch-list
+        height: 100%
+        min-height: 100vh
+        background-color: rgba(21,33,61,.25)
+        overflow: hidden
+        label
+            line-height: 1
+            padding: 10px 0 10px 10px
+            white-space: nowrap
+            width: 100%
+            overflow: hidden
+            text-overflow: ellipsis
+            text-align: left
+            &:hover
+                cursor: pointer
+            //position: static
+.sidebar-wrapper
+    .list-group-item
+        .form-wrap 
+            &.switch-selector
+                width: 90px
+                .title 
+                    .lbl-18
+                        opacity: .6
+                        line-height: 20px
+                .lbl-18
+                    line-height: 1
+                    padding: 6px 8px
+                    box-sizing: border-box

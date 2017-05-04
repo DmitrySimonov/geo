@@ -1,0 +1,10 @@
+export const HIDE_DIALOGS               = 'ide_dialogs';
+export const LOGIN_SUCCESS              = 'login_success';
+export const LOGIN_FAILED               = 'login_failed';
+export const FIELD_VALUE_CHANGE         = 'field_value_change';
+export const FORGOT_PASSWORD            = 'forgot_password';
+export const REQUEST_INVITE             = 'request_invite';
+export const COMPLETE_REGISTRATION      = 'complete_registration';
+export const SUCCESS_MESSAGE            = 'success_message';
+export const STATUS_CHANGE              = 'status_change';
+export const RESTORE_PASSWORD_ACTION    = 'restore_password_action';

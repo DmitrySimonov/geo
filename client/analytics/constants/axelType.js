@@ -1,0 +1,12 @@
+export const AXIS_WSH               = 'WSH';
+export const AXIS_DATE              = 'Days';
+export const AXIS_HEALTH_STATUS     = 'Health status';
+export const AXIS_LOAD              = 'Load';
+export const AXIS_TEMPERATURE       = 'Temperature';
+export const AXIS_VIBRATION         = 'Vibration';
+export const AXIS_SPEED             = 'Speed';
+export const AXIS_MOISTURE          = 'Moisture';
+export const AXIS_TILT              = 'Tilt';
+export const AXIS_TRAIN_RANGE       = 'Train Range';
+export const AXIS_TRAIN_ID          = 'Train ID';
+export const AXIS_SWITCH_ID         = 'Switch ID';

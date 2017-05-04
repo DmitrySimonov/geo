@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="20px" viewBox="0 0 40 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,1.99079514 C0,0.891309342 0.891539827,0 1.99729162,0 L38.0027084,0 C39.1057821,0 40,0.898212381 40,1.99079514 L40,18.0092049 C40,19.1086907 39.1084602,20 38.0027084,20 L1.99729162,20 C0.894217919,20 0,19.1017876 0,18.0092049 L0,1.99079514 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="20" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M22.9172905,8.14656701 C22.7909585,7.97374275 22.5672943,7.95037783 22.4157404,8.09450386 L19,11.3489586 L15.5842596,8.09450386 C15.433039,7.95075878 15.2085971,7.97425068 15.0827095,8.14656701 C14.9565998,8.31901031 14.977044,8.57589751 15.1280424,8.71976957 L18.7718914,12.1912387 C18.8378907,12.2542224 18.9190009,12.2857143 19,12.2857143 C19.0811102,12.2857143 19.1621093,12.2542224 19.2281086,12.1912387 L22.8719576,8.71976957 C23.022956,8.57589751 23.0434002,8.3191373 22.9172905,8.14656701 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.2" y="-0.2" width="8.4" height="4.68571429">
+            <rect x="14.8" y="7.8" width="8.4" height="4.68571429" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="table_pagination" transform="translate(-287.000000, -447.000000)">
+            <g id="Group-6" transform="translate(287.000000, 447.000000)">
+                <use id="Rectangle-9" stroke="#C1C7D7" mask="url(#mask-2)" stroke-width="2" fill="#F8FAFC" xlink:href="#path-1"></use>
+                <g id="Shape-Copy-9" transform="translate(19.000000, 10.142857) rotate(-270.000000) translate(-19.000000, -10.142857) ">
+                    <use fill="#7E8BA3" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="#7E8BA3" mask="url(#mask-4)" stroke-width="0.4" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

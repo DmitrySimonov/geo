@@ -1,0 +1,39 @@
+@import "text"
+
+.form-group
+    &.has-error 
+        .form-control-feedback
+            display: none
+        .form-control
+            height: 40px
+            background-color: rgba($palett-color-6, 0.04)
+            border: 1px solid $palett-color-6
+            &:focus
+                box-shadow: 0 0 0 $color-white
+                background-color: $color-white
+                border: 1px solid $palett-color-1
+        span
+            &.help-block
+                @include lbl-2
+    &.has-success 
+        .form-control-feedback
+            display: none
+        .form-control
+            height: 40px
+            border: 1px solid $palett-color-5
+            box-shadow: 0 0 0 $color-white
+            &:focus
+                box-shadow: 0 0 0 $color-white
+                border: 1px solid $palett-color-1
+                border-radius: 5px
+                box-shadow: 0 2px 3px rgba($palett-color-20, 0.11)
+    span
+        &.help-block
+            margin-top: 3px
+    label 
+        margin-bottom: $lbl-bottom-margin-4
+    &.center
+        label
+            margin: 0 2px
+
+    

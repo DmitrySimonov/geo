@@ -1,0 +1,2 @@
+echo Deploying $CI_PROJECT_NAME to development
+echo Deployment started by user \#$GITLAB_USER_ID - $GITLAB_USER_EMAIL

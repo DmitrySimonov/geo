@@ -1,0 +1,309 @@
+.list-height
+    >div
+        max-height: calc(100vh - #{$navbar-height}  + #{$scroll-margin-compensation}) !important
+    .profile-view
+        max-height: calc(100vh - #{$navbar-height}  + #{$scroll-margin-compensation}) !important
+.profile
+    width: 547px
+    padding: 30px
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06)
+    border-radius: 1px
+    background-color: $color-white
+    margin: 35px auto 0
+    display: block
+    .list-item
+        margin-bottom: 15px
+        position: relative
+        &.disabled
+            &:before
+                content: ' '
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+            input
+                background-color: $palett-color-35
+    .left-side
+        width: 50%
+        display: inline-block
+        vertical-align: top
+        .list-item
+            width: 175px
+        input
+            width: 100%
+        img
+            width: 100%
+    .rigth-side
+        position: relative
+        vertical-align: top
+        width: 50%
+        display: inline-block
+        &:before
+            content: ' '
+            height: 100%
+            width: 1px
+            left: -35px
+            top: 0
+            background-color: $palett-color-57
+        input
+            width: 100%
+    .title,
+    .lbl-6
+        color: $palett-color-55
+        font-size: 11px
+        font-weight: 500
+        letter-spacing: 1px
+        text-transform: uppercase
+        margin-bottom: 3px
+    input
+        padding: 8px 14px
+        border-radius: 4px
+        border: 1px solid $palett-color-5
+        color: $palett-color-95
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+    .btn-4
+        width: 120px
+        &.save-profile
+            background-color: $palett-color-70
+            float: right
+
+.invite-members
+    display: block
+    margin: 35px auto 0
+    padding: 25px 35px
+    width: 815px
+    box-shadow: 0 0 2px rgba($color-white, 0.06)
+    border-radius: 1px
+    background-color: $color-white
+    max-height: calc(100vh - 120px) !important
+    >div,
+    .view 
+        max-height: calc(100vh - 120px) !important
+        min-height: 100% !important
+    .title-item
+        color: $palett-color-55
+        font-size: 11px
+        font-weight: 500
+        letter-spacing: 1px
+        text-transform: uppercase
+        margin-bottom: 3px
+        margin-bottom: 10px
+    .dropdown 
+        min-width: 130px
+        border: none
+        >li
+            outline: none
+            &:nth-child(2n)
+                background-color: $palett-color-34
+            &.active
+                background-color: $palett-color-34
+            >a
+                outline: none
+                padding: 3px 10px
+        button.btn-default
+            text-align: left
+            background: transparent
+            border-radius: 4px
+            border: 1px solid $palett-color-65
+            color: $palett-color-84 !important
+            font-family: Proxima Nova
+            font-size: 14px
+            font-weight: 400
+            text-transform: capitalize
+            padding: 7px 10px
+            border-color: $palett-color-65 !important
+            background-color: $color-white !important
+            width: 140px
+            overflow: hidden
+            text-overflow: ellipsis
+            li
+                outline: none !important
+                a
+                    outline: none !important
+    .open 
+        .dropdown-toggle
+            box-shadow: 0 0 0 $color-white
+    .dropdown-menu
+        width: 140px
+        background-color: #ffffff
+        border-radius: 3px
+        border: none
+        padding: 0
+        li
+            outline: none
+            &:nth-child(2n)
+                background-color: $palett-color-34
+            &.active
+                a
+                    color: $palett-color-40
+                    background-color: $palett-color-34
+            >a
+                color: $palett-color-40
+                outline: none
+                padding: 3px 10px
+                white-space: nowrap
+                text-overflow: ellipsis
+                overflow: hidden
+    button
+        justify-content: space-between
+        align-items: center
+    .btn-12
+        width: 140px
+        float: right
+        margin-top: 12px
+        border-radius: 2px
+    .btn-10
+        margin-top: 15px
+        border: 1px solid $palett-color-96
+        background-color: $palett-color-35
+        label
+            font-size: $font-size-4 !important
+    .title
+        color: $palett-color-95
+        font-size: 18px
+        font-weight: $font-weight-2
+        margin-bottom: 10px
+    .item
+        display: inline-block
+        width: 130px
+        margin-right: 15px
+        vertical-align: top
+        input
+            height: 33px !important
+            width: 455px
+            padding: 5px 10px
+            border-radius: 2px
+            border: 1px solid $palett-color-5
+    .manage-team
+        margin-top: 45px
+        button
+            justify-content: space-between
+            align-items: center
+        .sort-button
+            width: 220px
+            button
+                display: flex
+                justify-content: space-between
+            >div
+                width: 100%
+        .search
+            width: 318px
+            border-radius: 4px
+            border: 1px solid $palett-color-5
+            padding: 5px 10px
+            float: right
+            height: 32px
+    .member-el
+        width: 360px
+    .member-el,
+    .member-info,
+    .avatar
+        display: inline-block
+    .control-item
+        margin-left: 25px
+        display: inline-block
+        vertical-align: middle
+        .cross
+            cursor: pointer
+        .resent
+            margin-left: 8px
+            cursor: pointer
+    .name
+        color: $palett-color-95
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        display: block
+        max-width: 185px
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+    .wrap
+        display: inline-block
+        vertical-align: middle
+    .position
+        color: $palett-color-66
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        display: block
+    .email
+        color: $palett-color-95
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        display: block
+        max-width: 145px
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+    .status
+        color: $palett-color-66
+        font-size: $font-size-4
+        font-weight: $font-weight-2
+        display: block
+        &.red
+            color: $color-red
+        &.active
+            color: $palett-color-70
+        .error
+            color: $palett-color-97
+    .member-item
+        padding: 20px 0
+        border-bottom: 1px solid $palett-color-65
+        >div
+            &:not(:last-child)
+                margin-right: 10px
+    .member-info
+        vertical-align: middle
+    .avatar
+        width: 215px
+        img
+            margin-right: 17px
+    .inner-wrap
+        padding-bottom: 20px
+        border-bottom: 1px solid $palett-color-65
+
+.invite-row
+    &:not(:first-child)
+        margin-bottom: 15px
+
+.wrap-table
+    >div,
+    .table-view
+        max-height: 100% !important
+.search-block
+    position: relative
+    input
+        outline: none
+.inner-wrap
+    display: flex
+    justify-content: space-between
+.loop
+    position: absolute
+    right: 15px
+    top: 1px
+    width: 14px !important
+    height: 14px
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block
+    display: block
+    .blog-item
+        display: block
+        &--modificator
+            color: #000
+
+.block
+.block .blog-item
+.block .blog-item--modificator

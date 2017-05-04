@@ -1,0 +1,1 @@
+export const HALF_PIE_CHART = 'half_pie_chart';

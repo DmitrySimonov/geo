@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="509px" height="199px" viewBox="0 0 509 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M351,130.228659 C351,130.089064 350.986529,129.944965 350.982038,129.803439 L275.35813,169.319329 L350.996793,208.841652 L350.996793,208.777322 L351,130.228659 Z M340.671378,113.729342 L274.084774,75.1758269 C269.089495,72.2809842 260.914995,72.2809842 255.919075,75.1758269 L188.082849,114.453053 C185.785034,115.782751 183.68608,118.007277 182.079149,120.58047 L253.897101,158.107281 L263.066551,162.898568 L340.366029,113.557582 L340.671378,113.729342 Z M248.93967,166.72169 L180.69674,123.160097 C179.633792,125.4972 179,127.962962 179,130.228659 L179,208.775392 C179,210.948454 179.58568,213.304213 180.571649,215.555114 L248.941595,171.913108 L253.009279,169.316756 L248.93967,166.72169 Z M263.069117,175.743307 L253.901591,180.53395 L181.92006,218.14246 C183.541745,220.834664 185.704848,223.175627 188.082849,224.554215 L255.914585,263.828868 C260.909863,266.723711 269.084363,266.723711 274.080283,263.828868 L340.666888,225.275996 L263.069117,175.743307 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="404" transform="translate(-466.000000, -165.000000)">
+            <g id="Group-3" transform="translate(456.000000, 94.000000)">
+                <g id="Group">
+                    <g id="Group-4">
+                        <g id="Combined-Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <text id="4" font-family="ProximaNova-Light, Proxima Nova" font-size="288" font-weight="300" fill="#FFFFFF">
+                            <tspan x="0" y="265">4</tspan>
+                        </text>
+                        <text id="4-copy" font-family="ProximaNova-Light, Proxima Nova" font-size="288" font-weight="300" fill="#FFFFFF">
+                            <tspan x="373" y="266">4</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

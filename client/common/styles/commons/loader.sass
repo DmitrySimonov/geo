@@ -1,0 +1,16 @@
+$preloader-width: 100px
+$preloader-height: 100px
+
+.loader
+    padding: calc(50vh - #{$preloader-height}) 0 0 0
+    width: 100vw
+    height: 100vh
+    z-index: 1100
+    top: 0
+    background-color: rgba(0, 6, 78, 0.69)
+    position: fixed
+    > div
+        margin: 0 auto
+        background: url('~/assets/img/preloader.svg') no-repeat 
+        height: $preloader-height
+        width: $preloader-width

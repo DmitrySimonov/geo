@@ -1,0 +1,166 @@
+// Components
+@import "./../../common/styles/variables"
+
+$map-wrapper-width: calc(100% - #{$left-sidebar-width} - #{$right-sidebar-width})
+$map-wrapper-height: calc(100% - #{$navbar-height})
+
+
+.chart
+    height: 122px
+.map-wrapper
+    height: calc(100vh - #{$navbar-height} - #{$subbar-height})
+    .map-component
+        height: 100%
+            
+.tiles-wrapper
+    background-color: $palett-color-45
+    width: calc(100% - #{$right-sidebar-width})
+    min-height: calc(100vh - #{$navbar-height} - #{$subbar-height})
+    
+.right-side
+    >div
+        max-height: calc(100vh - 100px) !important
+    .view
+        max-height: calc(100vh - 100px) !important
+
+.search-title
+    color: $palett-color-55
+    font-size: 11px
+    font-weight: 500
+    letter-spacing: 1px
+    margin-bottom: 5px
+    text-transform: uppercase
+.search-name
+    color: $palett-color-40
+    font-size: $font-size-4
+    font-weight: $font-weight-2
+    letter-spacing: 1px
+
+.search-result
+    width: 207px
+    margin: -3px auto 0
+    border: none
+    background: $color-white
+    box-shadow: 0 1px 3px rgba($palett-color-2, 0.2)
+    border-radius: 0 0 4px 4px
+    padding-bottom: 4px
+    text-align: left
+    left: 0
+    right: 0
+    z-index: 100
+    position: absolute
+    ul
+        padding-left: 0
+    li
+        background: $color-white
+        list-style: none
+        cursor: pointer
+        padding: 15px 10px
+        &:nth-child(odd)
+            background-color: $palett-color-50
+
+.list-height
+    background-color: $palett-color-51
+    height: calc(100vh - 60px)
+.list-table
+        background-color: $palett-color-51
+        padding: 20px 25px
+        position: relative
+        >div,
+        .table-view
+            max-height: calc(100vh - #{$navbar-height} - #{$subbar-height}) !important
+        .inner-wrap-table
+            box-shadow: 0 1px 3px rgba($palett-color-2, 0.09), 0 0 2px rgba(0, 0, 0, 0.06)
+            border-radius: 3px
+        table
+            background-color: $color-white
+            thead
+                tr
+                    background-color: $palett-color-52
+                    th
+                        padding: 0 20px !important
+                        height: 50px
+                        cursor: pointer
+                        text-align: left
+                        vertical-align: middle
+                        text-transform: uppercase
+            tbody
+                tr
+                    &:nth-child(even)
+                        background-color: $palett-color-53
+                    td
+                        padding: 0 20px !important
+                        height: 50px
+                        text-align: left
+.sort
+    font-family: Proxima Nova
+    position: absolute
+    outline: none
+    background: none
+    border: none
+    width: 8px
+    height: 11px
+    vertical-align: top
+    text-align: center
+    display: inline-block
+    top: 50%
+    right: -17px
+    transform: translateY(-50%)
+    &.asc
+        .arrow-sort-top
+            svg
+                g
+                    fill: $palett-color-70
+    &.desc
+        .arrow-sort-bottom
+            svg
+                g
+                    fill: $palett-color-70
+    svg
+        vertical-align: top
+
+.list-table
+    height: calc(100vh - #{$navbar-height} - #{$subbar-height})
+    overflow: hidden
+    border-radius: 3px
+span.arrow-sort-top 
+    width: 7px
+    height: 5px
+    display: inline-block
+    position: absolute
+    top: 0
+    left: 0
+
+span.arrow-sort-bottom 
+    width: 7px
+    height: 5px
+    display: inline-block
+    position: absolute
+    top: 5px
+    left: 0
+.right-block-wrap
+    float: right
+    .nav
+        float: left
+button
+    &.btn-default
+        &.export
+            margin: 11px 24px 0
+            width: 88px !important
+            background: transparent !important
+            border-radius: 3px
+            float: right !important
+            border: 1px solid #c1c7d7
+            background-color: #f8fafc
+            padding: 0 !important
+            height: 26px
+            img
+                vertical-align: top
+            label
+                margin: 0 !important
+                color: #7e8ba3 !important
+                font-family: $main-font 
+                font-size: 11px !important
+                font-weight: 500 !important
+                text-transform: uppercase !important
+                letter-spacing: 1px !important
