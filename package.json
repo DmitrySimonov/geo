@@ -9,7 +9,7 @@
     "production": "cross-env NODE_ENV=production cross-env BUILD_APP_TARGET=SERVER babel-node server",
     "development": "cross-env NODE_ENV=development cross-env BUILD_APP_TARGET=SERVER babel-node server",
     "babel-version": "babel --version",
-    "start": "babel-node server"
+    "start": "./node_modules/.bin/babel-node server"
   },
   "engines": {
     "npm": "^3.8.6",
